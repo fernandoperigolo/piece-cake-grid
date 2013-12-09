@@ -1,0 +1,60 @@
+body{
+  background: #BFFFFD;
+  font-family: 'Vibur', cursive;
+  color: #663300;
+  text-align: center;
+}
+
+a{
+  color: #288DFF;
+}
+
+h1{
+  font-size: 60px;
+  margin: 0 0 40px;
+}
+
+.wrap{
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.the-cake{
+  position: relative;
+  padding: 20px 0 0 20px;
+  margin: 0 0 20px;
+  background: #fff;
+}
+
+.cake-filling{
+  padding: 20px 0 0 20px;
+  background: #fcc;
+}
+
+div[class^='column-']{
+  margin: 0 0 20px;
+}
+
+.group:last-child div[class^='column-']{
+  margin: 0;
+}
+
+.cake{
+  background: #ffc;
+  padding: 40px;
+}
+
+.bite{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(bite.png) no-repeat left top;
+  width: 238px;
+  height: 143px;
+}
+
+.description{
+  font-size: 30px;
+  margin: 0 0 20px;
+}
