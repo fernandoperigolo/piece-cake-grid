@@ -1,29 +1,21 @@
-/* Force element to self clear floats */
-.group:after {
+.row {
+  overflow: hidden;
+  padding: 0 10px;
+}
+.row:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* Core column style */
-div[class^='column-']{
+[class^='column-'] {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   float: left;
   padding: 0 10px;
 }
-div[class^='column-']:first-child{
-  padding-left: 0;
-}
-div[class^='column-']:last-child{
-  padding-right: 0;
-}
-div[class^='column-']:first-child:last-child{
-  padding: 0;
-}
 
-/* Defining column width */
 .column-1-12 {
   width: calc(1 / 12 * 100%);
 }
